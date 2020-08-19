@@ -120,6 +120,6 @@ If you would like to include an image on your `index.html` file, place the path 
 
 ```html
   <img class="splash-title__img"
-                     src="<%= require('./src/assets/logo-on-dark-bg.png') %>"
-                     alt="webpack logo"></a>
+       src="<%= require('./src/assets/logo-on-dark-bg.png') %>"
+       alt="webpack logo"></a>
 ```
