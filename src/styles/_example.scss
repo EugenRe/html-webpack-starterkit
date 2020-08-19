@@ -1,0 +1,20 @@
+ 
+ /* if you want to change something with breakpoints, 
+ do it inside the object and use @include with bulma classes - mobile first! */
+
+ .card-content{
+    height: 50vh;
+    @include mobile{
+        background: #000;
+        p{
+            color: #fff;
+        }
+    }
+    @include tablet{
+        background: #aaa;
+        color: #000;
+    }
+    @include desktop{
+        background: #fff;
+    }
+ }

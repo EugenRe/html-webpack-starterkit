@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>html starterkit</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://aleksundshantu.com">
+
+                    <img src="<%= require('./src/assets/aleksundshantu-logo.svg') %>"
+                        alt="Aleks und Shantu Logo" >
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+        </nav>
+        <section class="hero is-light">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        Aleks und Shantu
+                    </h1>
+                    <h2 class="subtitle">
+                        HTML Webpack Starterkit
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="card">
+                    <div class="card-content">
+                        <p class="title">
+                            Here comes the Content Area.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>And last but not least the <strong>footer</strong>.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
