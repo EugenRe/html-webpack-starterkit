@@ -7,9 +7,7 @@
 * CSS Vendor prefixing
 * Development server
 * Sourcemaps
-* Favicons generation
 * Production optimizations
-* Mobile browser header color
 
 
 ## Requirements
