@@ -32,10 +32,6 @@ npm run build
 
 ### How to load fonts
 
-If you don't support Opera Mini, browsers support the .woff format. Its newer version .woff2, is widely supported by modern browsers and can be a good alternative.
-
-If you decide to use only this format you can load the fonts in a similar manner to images.
-
 In your `webpack.dev.js` and `webpack.prod.js` add the following
 
 ```js
